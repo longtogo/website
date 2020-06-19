@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--链接文件，一些设置-->
+        <meta charset="UTF-8">
+        <!--页面名-->
+        <title>
+            我的主页
+        </title>
+        <!--图标-->
+        <link rel="icon" href="">
+        <!--链接css文件-->
+        <link rel="stylesheet" href="./css/index.css">
+        <script src="js/jquery.min.js"></script>
+        <script src="js/banner.js"></script>
+        <script src="js/imagechange.js"></script>
+    </head>
+    <body>
+        <!--导航区nav-->
+        <nav id="mynav">
+            <!--导航区的div-->
+            <div class="nav-container">
+                <!--左侧内联icon，为超链接-->
+                <div class="nav-icon">
+                    <span id="a-icon">
+                        <a class="nav-a icon-a" href="#">
+                            SYF.COM<img src="./images/search-icon.png" height="18" width="18">
+                        </a>
+                    </span>
+                </div>
+                <!--导航栏右侧选项div-->
+                <div class="navlist">
+                    <ul class="ul-navlist">
+                        <li>
+                            <a class="nav-a" href="#">主页</a>
+                        </li>
+                        <li>
+                            <a class="nav-a" href="#">大学生活</a>
+                        </li>
+                        <li>
+                            <a class="nav-a" href="#">学习碎片</a>
+                        </li>
+                        <li>
+                            <a class="nav-a" href="#">团学日志</a>
+                        </li>
+                    </ul>
+                    <!--搜索按钮-->
+                    
+                </div>
+                <!--搜索div-->
+                <!-- <div class="search-form">
+                    <form action="#" method="GET">
+                        <input id="search">
+                        <button class="search-done" type="submit">
+                            <div class="search-botton">
+                                <a action="">
+                                    <img src="./images/search-icon.png">
+                                </a>
+                            </div>
+                        </button>
+                    </form>
+                </div> -->
+            </div>
+        </nav>
+        <!--空白div，调整下个div的位置-->
+        <div class="space">
+        </div>
+        <!--图片循环播放div-->
+        <div class="banner">
+            <ul>
+                <li>
+                    <a href="./images/1.jpg">
+                        <img src="images/1.jpg" />
+                    </a>
+                    <div class="banner-text">
+                        <b>南京中山陵</b>
+                        <br>
+                        &nbsp;&nbsp;2019年夏天的南京5日游。故地重
+                        <br>
+                        &nbsp;&nbsp;游故人仍在^^
+                    </div>
+                </li>
+                <li>
+                    <a href="./images/2.jpg">
+                        <img src="images/2.jpg" />
+                    </a>
+                    <div class="banner-text">
+                        <b>寝室的日常</b>
+                        <br>
+                        &nbsp;&nbsp;临湖5栋逼仄的空间好像小时候的<br>
+                        &nbsp;&nbsp;黑网吧
+                    </div>
+                </li>
+                <li>
+                    <a href="./images/3.jpg">
+                        <img src="images/3.jpg" />
+                    </a>
+                    <div class="banner-text">
+                        <b>部门联谊</b>
+                        <br>
+                        &nbsp;&nbsp;和新闻部的联谊轰趴活动。人很<br>
+                        &nbsp;&nbsp;多，抢不到吃的QAQ
+                    </div>
+                </li>
+                <li>
+                    <a href="./images/4.jpg">
+                        <img src="images/4.jpg" />
+                    </a>
+                    <div class="banner-text">
+                        <b>2019年送毕晚会彩排</b>
+                        <br>
+                        &nbsp;&nbsp;作为协办部门，参与到了送毕晚会<br>
+                        &nbsp;&nbsp;的彩排。书记正在台上高歌
+                    </div>
+                </li>
+
+            </ul>
+            <div class="arrow">
+                <span class="arrow-l"><</span>
+                <span class="arrow-r">></span>
+            </div>
+            <ol>
+                <li class="dot"></li>
+                <li></li>
+                <li></li>
+                <li></li>
+
+            </ol>
+        </div>
+        <!--个人简介div-->
+        <div class="introduction">
+            <div class="container">
+                <!--左侧的个人介绍-->
+                <div class="intro">
+                    <h3>个人简介</h3>
+                    <!--照片-->
+                    <img id="me" class="max" src="images/intro.jpg">
+                    <!--简介-->
+                    <span>
+                        姓名:申云飞<br>
+                        性别：男<br>
+                        班级：信管1702<br>
+                        兴趣爱好：唱、跳、rap、篮球<br>
+                        婚配：否<br>
+                        现居地：河南鹤壁<br>
+                    </span>
+                
+                </div>
+                <!--右侧的照片和简介列表-->
+                <div class="photos">
+                    <h3>日常照片</h3>
+                    <ul>
+                        <li>
+                            <div class="img-div">
+                                <img src="images/self1.jpg">
+                            </div>
+                            <!--照片简介-->
+                            <div class="photos-text">
+                                <span>
+                                    和外院朋友期末采风！
+                                </span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="img-div">
+                                <img src="images/self2.jpg">
+                            </div>
+                            <!--照片简介-->
+                            <div class="photos-text">
+                                <span>
+                                    团学总结大会2019年！ 
+                                </span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="img-div">
+                                <img src="images/self3.jpg">
+                            </div>
+                            <!--照片简介-->
+                            <div class="photos-text">
+                                <span>
+                                    和朋友们出去小酌！ 
+                                </span>
+                            </div>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--页脚-->
+        <footer class="myfooter">
+            <div class="footer">
+                Copyright ©2020 All rights reserved by SYF201721130146
+            </div>
+        </footer>
+    </body>
+</html>
