@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>
+        学业情况
+    </title>
+    <!--图标-->
+    <link rel="icon" href="images/search-icon.png">
+    <link rel="stylesheet" href="css/study.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="./js/tablehover.js"></script>
+</head>
+
+<body>
+    <!--导航区nav-->
+    <nav id="mynav">
+        <!--导航区的div-->
+        <div class="nav-container">
+            <!--左侧内联icon，为超链接-->
+            <div class="nav-icon">
+                <span id="a-icon">
+                    <a class="nav-a icon-a" href="index.html">
+                        SYF.COM<img src="./images/search-icon.png" height="18" width="18">
+                    </a>
+                </span>
+            </div>
+            <!--导航栏右侧选项div-->
+            <div class="navlist">
+                <ul class="ul-navlist">
+                    <li>
+                        <a class="nav-a" href="index.html">主页</a>
+                    </li>
+                    <li>
+                        <a class="nav-a" href="life.html">大学生活</a>
+                    </li>
+                    <li>
+                        <a class="nav-a" href="study.html">学业情况</a>
+                    </li>
+                    <li>
+                        <a class="nav-a" href="dialog.html">团学日志</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--空白div，调整下个div的位置-->
+    <div class="study-space">
+    </div>
+    <!--学业完成表div-->
+    <div class="table-container">
+        <div class="table-text">信管专业课程完成情况自查表</div>
+        <table id="tfhover" class="tftable" border="1" width="800px">
+            <tr>
+                <th class="wid">通识必修</th>
+                <th class="thin">开课学期</th>
+                <th class="thin">学分</th>
+                <th class="thin">成绩/总学分</th>
+                <th class="wid">学科必修</th>
+                <th class="thin">开课学期</th>
+                <th class="thin">学分</th>
+                <th class="thin">成绩/总学分</th>
+                <th class="wid">学科选修</th>
+                <th class="thin">开课学期</th>
+                <th class="thin">学分</th>
+                <th class="thin">成绩/总学分</th>
+                <th class="wid">素质教育课程</th>
+                <th class="thin">成绩/总学分</th>
+            </tr>
+            <tr>
+                <td>毛泽东思想和中国特色社会主义理论体系概论（上）</td>
+                <td>二</td>
+                <td>3</td>
+                <td>已修</td>
+                <td>信息技术理论与实践</td>
+                <td>一</td>
+                <td>2</td>
+                <td>已修</td>
+                <td>数据库管理实务</td>
+                <td>三</td>
+                <td>3</td>
+                <td>已修</td>
+                <td rowspan="2">专项教育选修类课程（科学研究方法和创业指导必须二选一）</td>
+                <td rowspan="2">5</td>
+            </tr>
+            <tr>
+                <td>毛泽东思想和中国特色社会主义理论体系概论（下）</td>
+                <td>三</td>
+                <td>3</td>
+                <td>已修</td>
+                <td>程序设计</td>
+                <td>一</td>
+                <td>3</td>
+                <td>已修</td>
+                <td>Windows编程</td>
+                <td>五</td>
+                <td>3</td>
+                <td>已修</td>
+            </tr>
+            <tr>
+                <td>马克思主义基本原理概论</td>
+                <td>三</td>
+                <td>3</td>
+                <td>已修</td>
+                <td>离散数学</td>
+                <td>二</td>
+                <td>3</td>
+                <td>已修</td>
+                <td>计算机系统基本原理</td>
+                <td>五</td>
+                <td>2</td>
+                <td></td>
+                <td>课外学分</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>思想道德修养与法律基础</td>
+                <td>二</td>
+                <td>2</td>
+                <td>已修</td>
+                <td>数据库系统原理</td>
+                <td>二</td>
+                <td>4</td>
+                <td>已修</td>
+                <td>金-投资学</td>
+                <td>四</td>
+                <td>2</td>
+                <td></td>
+                <th>通识选修</th>
+                <th>学分</th>
+            </tr>
+            <tr>
+                <td>中国近代史纲要</td>
+                <td>一</td>
+                <td>2</td>
+                <td>已修</td>
+                <td>管理学</td>
+                <td>三</td>
+                <td>3</td>
+                <td>已修</td>
+                <td>金-货币金融学</td>
+                <td>四</td>
+                <td>3</td>
+                <td>已修</td>
+                <td>合格条件</td>
+                <td>>=8</td>
+            </tr>
+            <tr>
+                <td>形势与政策（1）</td>
+                <td>一</td>
+                <td>0.5</td>
+                <td>已修</td>
+                <td>面向对象分析与设计</td>
+                <td>二</td>
+                <td>3</td>
+                <td>已修</td>
+                <td>金-风险管理与保险</td>
+                <td>五</td>
+                <td>3</td>
+                <td></td>
+                <td>音乐基础</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>形势与政策（2）</td>
+                <td>二</td>
+                <td>0.5</td>
+                <td>已修</td>
+                <td>数据结构</td>
+                <td>三</td>
+                <td>5</td>
+                <td>已修</td>
+                <td>合格条件</td>
+                <td colspan="2">>=7</td>
+                <td>9</td>
+                <td>心理学与生活</td>
+                <td>2</td>
+                
+            </tr>
+            <tr>
+                <td>形势与政策（3）</td>
+                <td>三</td>
+                <td>0.5</td>
+                <td>已修</td>
+                <td>操作系统原理</td>
+                <td>三</td>
+                <td>4</td>
+                <td>已修</td>
+                <th>专业选修</th>
+                <th>开课学期</th>
+                <th>学分</th>
+                <th>实修</th>
+                <td>社会学原理入门</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>形势与政策（4）</td>
+                <td>四</td>
+                <td>0.5</td>
+                <td>已修</td>
+                <td>合计</td>
+                <td colspan="2">27</td>
+                <td>27</td>
+                <td>建模语言</td>
+                <td>四</td>
+                <td>3</td>
+                <td>已修</td>
+                <td>创业风险</td>
+                <td>2</td>
+
+            </tr>
+            <tr>
+                <td>大学语文</td>
+                <td>一</td>
+                <td>3</td>
+                <td>已修</td>
+                <th>专业选修</th>
+                <th>开课学期</th>
+                <th>学分</th>
+                <th>实修</th>
+                <td>设计模式与XML</td>
+                <td>四</td>
+                <td>3</td>
+                <td>已修</td>
+                <td>创业基础</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>高等数学（上）</td>
+                <td>一</td>
+                <td>5</td>
+                <td>已修</td>
+                <td>计算机网络原理</td>
+                <td>三</td>
+                <td>3</td>
+                <td>已修</td>
+                <td>网络工程技术与运用</td>
+                <td>四</td>
+                <td>3</td>
+                <td></td>
+                <td>心理健康</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>高等数学（下）</td>
+                <td>二</td>
+                <td>5</td>
+                <td>已修</td>
+                <td>网络编程（java双语）</td>
+                <td>四</td>
+                <td>3</td>
+                <td>已修</td>
+                <td>算法分析与设计</td>
+                <td>五</td>
+                <td>3</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>线性代数（工）</td>
+                <td>三</td>
+                <td>4</td>
+                <td>已修</td>
+                <td>会计学</td>
+                <td>四</td>
+                <td>3</td>
+                <td>已修</td>
+                <td>Unix与Linux系统（双语）</td>
+                <td>五</td>
+                <td>3</td>
+                <td>已修</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>概率论与数理统计（经管）</td>
+                <td>四</td>
+                <td>4</td>
+                <td>已修</td>
+                <td>信息科学前沿（双语）</td>
+                <td>四</td>
+                <td>2</td>
+                <td>已修</td>
+                <td>金-证券分析系统</td>
+                <td>五</td>
+                <td>2</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>法学通论</td>
+                <td>三</td>
+                <td>2</td>
+                <td>已修</td>
+                <td>信息系统分析与设计</td>
+                <td>五</td>
+                <td>4</td>
+                <td>已修</td>
+                <td>金-电子银行学</td>
+                <td>五</td>
+                <td>3</td>
+                <td>已修</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>经济学通论</td>
+                <td>四</td>
+                <td>2</td>
+                <td>已修</td>
+                <td>运筹与决策</td>
+                <td>五</td>
+                <td>2</td>
+                <td>已修</td>
+                <td>金-R语言</td>
+                <td>五</td>
+                <td>3</td>
+                <td>已修</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>社会原理</td>
+                <td>二</td>
+                <td>3</td>
+                <td>已修</td>
+                <td>合计</td>
+                <td colspan="2">17</td>
+                <td>17</td>
+                <td>信息检索</td>
+                <td>六</td>
+                <td>2</td>
+                <td>在修</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>合计</td>
+                <td colspan="2">43</td>
+                <td>43</td>
+                <th>实践与实验课程</th>
+                <th>开课学期</th>
+                <th>学分</th>
+                <th>实修</th>
+                <td>商业数据分析</td>
+                <td>六</td>
+                <td>3</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>专项必修</th>
+                <th>开课学期</th>
+                <th>学分</th>
+                <th>实修</th>
+                <td>学年论文</td>
+                <td>六</td>
+                <td>2</td>
+                <td></td>
+                <td>ERP原理与技术</td>
+                <td>六</td>
+                <td>2</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>大学英语（1）</td>
+                <td>一</td>
+                <td>3</td>
+                <td>已修</td>
+                <td>毕业论文</td>
+                <td>七</td>
+                <td>4</td>
+                <td></td>
+                <td>信息安全</td>
+                <td>六</td>
+                <td>2</td>
+                <td>在修</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>大学英语（2）</td>
+                <td>二</td>
+                <td>4</td>
+                <td>已修</td>
+                <td>专业实习</td>
+                <td>六</td>
+                <td>4</td>
+                <td></td>
+                <td><b>网站与网页设计</b></td>
+                <td>六</td>
+                <td>3</td>
+                <td>在修</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>大学英语（3）</td>
+                <td>三</td>
+                <td>3</td>
+                <td>已修</td>
+                <td>专业综合设计</td>
+                <td>六</td>
+                <td>3</td>
+                <td>在修</td>
+                <td>嵌入式开发</td>
+                <td>六</td>
+                <td>2</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>军训</td>
+                <td>一</td>
+                <td>2</td>
+                <td>已修</td>
+                <td>合计</td>
+                <td colspan="2">13</td>
+                <td></td>
+                <td>金-金融信息工程</td>
+                <td>六</td>
+                <td>2</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>军事理论</td>
+                <td>一</td>
+                <td>2</td>
+                <td>已修</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>金-互联网支付与结算</td>
+                <td>六</td>
+                <td>3</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>公共体育（1）</td>
+                <td>一</td>
+                <td>1</td>
+                <td>已修</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>金-金融信息系统仿真</td>
+                <td>六</td>
+                <td>2</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>公共体育（2）</td>
+                <td>二</td>
+                <td>1</td>
+                <td>已修</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>金-电子商务与电子政务</td>
+                <td>六</td>
+                <td>2</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>体育专项（3）</td>
+                <td>三</td>
+                <td>1</td>
+                <td>已修</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>IT项目管理</td>
+                <td>七</td>
+                <td>2</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>体育专项（4）</td>
+                <td>四</td>
+                <td>1</td>
+                <td>已修</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>供应链与运营管理（双语）</td>
+                <td>七</td>
+                <td>2</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>合计</td>
+                <td colspan="2">18</td>
+                <td>18</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>金-金融营销</td>
+                <td>七</td>
+                <td>2</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>合格条件</td>
+                <td colspan="2">>=22</td>
+                <td>15</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td colspan="5">必修课合计：</td>
+                <td colspan="2">118</td>
+                <td></td>
+                <td>限选课合计：</td>
+                <td colspan="2">29</td>
+                <td></td>
+                <td>任选课</td>
+                <td>23</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td colspan="4">达到毕业条件的总学分：170</td>
+                <td colspan="4">实修总学分</td>
+                <td colspan="3">平均学分绩点：</td>
+                <td colspan="2">根据目前修业状态能否顺利毕业：</td>
+                <td>是</td>
+            </tr>
+        </table>
+    </div>
+    <!--页脚-->
+    <footer class="myfooter">
+        <div class="footer">
+            Copyright ©2020 All rights reserved by SYF201721130146
+        </div>
+    </footer>
+</body>
+
+</html>

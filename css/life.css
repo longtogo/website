@@ -1,0 +1,115 @@
+/* 默认设置 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", "Josefin Sans", arial, sans-serif;
+    margin: 0;
+    background-image: url(../images/colorful.jpg);
+    background-repeat:no-repeat;
+    background-size: 1800px;
+}
+
+ul{
+    margin: 0; 
+    flex-direction: row;
+}
+
+a {
+    text-decoration: none;
+}
+
+li{
+    list-style: none; 
+}
+
+img {
+    height: auto;
+    max-width: 100%; 
+}
+
+/*  空白背景部分   */
+.life-space {
+    width: 800px;
+    height: 300px;
+    margin: 0 auto;
+    background-image: url(../images/college.png);
+    background-repeat:no-repeat;
+    background-size: 600px;
+    background-position: 150px 20px;
+}
+
+/*    照片墙部分    */
+.photos {
+    width: 800px;
+    height: 800px;
+    margin: 0 auto;/*居中显示*/
+}
+.photos .container {
+    float: left;
+    margin-left: 20px;
+}
+.photos .container span {
+    text-align: left;
+    font-size: 25px;
+    font-family: 微软雅黑;
+    line-height: 30px;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.single-photo {
+    float: left;
+    margin: 15px;
+    border: 1px solid #e6e6e6;
+    
+}
+.single-photo img {
+    width: 210px;
+    height: 210px;
+    object-fit: cover;
+}
+/*  投稿表单区域   */
+
+.send {
+    width: 750px;
+    height: 170px;
+    margin: 0 auto;
+    background-color: #000;
+    opacity: 0.5;
+    padding-left: -20px;
+    color: #fff;
+
+    /* display: flex;
+    flex-wrap: wrap; */
+}
+.send span {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.send .short-input {
+    float: left;/*实现并排*/
+    padding: 15px;
+    width: 130px;
+}
+.send .short-input input {
+    width: 100px;
+}
+.send .long-input {
+    float: left;
+    width: 400px;
+    /* display: block; */
+}
+.send .long-input textarea {
+    margin-left: 15px;
+}
+.send .submit {
+    display: block;
+    padding-left: 600px;
+}
+.send .upload {
+    padding-top: 100px;/*调整位置*/
+}

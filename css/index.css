@@ -90,7 +90,17 @@ a.nav-a {/* 导航栏的链接 */
 }
 /*         空白区域          */
 .space {
-    height: 60px;
+    width: 800px;
+    height: 630px;
+    margin: 0 auto;
+    background-image: url(../images/welcome-back.jpg);
+    background-repeat:no-repeat;
+    background-size: 800px;
+    background-position: 0px 60px;
+}
+.space img {
+    padding-top: 250px;
+    padding-left: 40px;
 }
 
 /*       图片轮播      */
